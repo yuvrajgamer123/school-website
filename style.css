@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    background: linear-gradient(#42f5da 0%, #42aaf5 100%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: table;
+    color: red;
+    z-index: 9;
+}
+
+.www {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: crimson;
+    margin: 8px auto;
+
+}
+
+p {
+    max-width: 452px;
+    margin: 25px auto;
+    font-size: 17px;
+}
+
+.menu {
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    cursor: pointer;
+    z-index: 10;
+    background-color: white;
+}
+
+.links {
+
+    color: aqua;
+
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: lightblue;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img :hover {
+    transform: scale(0.9);
+}
+#contact{
+    background: red;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a {
+    color: white;
+}
+.container{
+    text-align: center;
+}
+#mygames{
+    background-color: red;
+}
+#mygames img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
